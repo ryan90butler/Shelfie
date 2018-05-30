@@ -1,0 +1,335 @@
+.App {
+  text-align: center;
+  font-family:'Open Sans', sans-serif;
+}
+.detailBin p {
+  margin-bottom: 0px;
+  text-align: left;
+  font-weight:  bold;
+  font-size: 16px;
+}
+
+.createBin p {
+  margin-bottom: 0px;
+  text-align: left;
+  font-weight:  bold;
+  font-size: 16px;
+}
+
+h1 {
+  margin-left: 10px;
+}
+.newBinTitle {
+  background: #ffb8af;
+  width: 100%;
+  text-align:  left;
+  font-size: 30px;
+  font-weight:  bold;
+}
+p.inputTitle {
+  margin-bottom: 0px;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 30%;
+}
+p.labelBinHolder {
+  margin-bottom: 0px;
+}
+
+.createBin{
+  display: flex;
+  width: 500px;
+  margin: auto;
+  flex-direction: column;
+}
+
+.detailBin {
+  margin-left: 20px;
+}
+
+img.binImage {
+  height: 200px;
+  width: 250px;
+}
+
+.buttons {
+  justify-content: space-between;
+  display: flex;
+  -ms-flex-pack: justify;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bin-container {
+  display:  flex;
+  justify-content:  center;
+  margin-top: 30px;
+  margin-right:  30px;
+  align-items:  center;
+  align-content:  center;
+}
+
+.Shelf-list {
+  width: 500px;
+  background-color: #d34735;
+  height: 60px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  display: flex;
+  text-decoration:  none;
+  font-size:  30px;
+  color: white;
+  align-items:  center;
+  justify-content: center;
+}
+
+p.shelf-text {
+  width: 100px;
+  text-align:  left;
+}
+
+.shelfHeader {
+  justify-content:  center;
+  align-items:  center;
+  align-content:  center;
+  display:  flex;
+  margin-left: 20px;
+  margin-right: 200px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+span.binTitle {
+  margin-left: 15px;
+  font-size: 30px;
+}
+
+.header-name-container {
+  background: #d34735;
+  width: 40%;
+  color: white;
+  font-size: 30px;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.divHeader {
+  background: #ed6b5a;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  margin-left: 20px;
+  color: white;
+  font-style: 30px;
+  font-weight: bold;
+}
+button.edit-button {
+  font-size:  30px;
+  width: 200px;
+  height: 50px;
+  font-weight:  bold;
+  background-color: #d8d8d8;
+  border-radius: 3px;
+}
+button.delete-button {
+  font-size:  30px;
+  width: 200px;
+  height: 50px;
+  font-weight:  bold;
+  background-color: #d8d8d8;
+  border-radius: 3px;
+}
+button.save-button {
+  font-size:  30px;
+  height: 50px;
+  width: 200px;
+  font-weight:  bold;
+  background-color: #40f99b;
+  border-radius: 50px;
+}
+input.nameHolder {
+  border: 1px solid #ab2a19;
+  border-radius: 3px;
+  padding: 12px;
+  min-width: 500px;
+  width: auto;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+input.addInfoHolder {
+  border: 1px solid #ab2a19;
+  border-radius: 3px;
+  padding: 12px;
+  min-width: 500px;
+  width: auto;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+label {
+  display:  flex;
+  align-items:  center;
+  justify-content:  center;
+}
+
+a.newBinLink {
+  width: 500px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  display: flex;
+  background-color: #ffb8af;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 30px;
+  color: white;
+}
+
+a {
+  text-decoration:  none;
+}
+.bin-child-links {
+  height: 60px;
+  margin-top: 20px;
+  background-color: #ed6b5a;
+  border-radius: 3px;
+  width: 500px;
+  margin-left: 20%;
+  align-items:  center;
+  align-content:  center;
+  justify-content:  center;
+  color: white;
+  text-decoration:  none;
+  font-weight: 700;
+  font-size: 30px;
+
+}
+.bin-parent {
+  height:  100vh;
+}
+.header-name-container {
+  display:  flex;
+  align-items:  center;
+}
+h1.header-name-text {
+  margin-left:  20px;
+  color: white;
+  font-size: 30px;
+}
+span.shelf-list-text {
+  position:  relative;
+  left: -110px;
+}
+.shelf-container {
+  margin-top:  20px;
+  display: flex;
+  flex-direction:  column;
+  align-items:  center;
+}
+
+button.inventoryButton {
+  font-size: 30px;
+  width: 485px;
+  height: 55px;
+  background-color: #40f99b;
+  border-radius: 37px;
+  margin: auto;
+}
+.open-sans-bold {
+  font-weight: 700;
+}
+.logo {
+  width: 50px;
+}
+a.header-main-link {
+  width: 20%;
+}
+a.shelf-list-link {
+  text-decoration:  none;
+}
+header.Nav-header {
+  height: 100px;
+  width:  100%;
+  background-color: #D34735;
+}
+.nav-header-logo-cont {
+  background-color: #AB2A19;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  cursor: pointer;
+}
+.shelf-container {
+  margin-top:  20px;
+  display: flex;
+  flex-direction:  column;
+  align-items:  center;
+}
+
+img.nav-header-logo {
+  margin: auto;
+  margin-bottom:  auto;
+  margin-top: 20px;
+  width: 50px;
+}
+.Nav-header{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  min-width: 681px;
+}
+.header-content {
+  width: auto;
+  height: auto;
+  position: relative;
+  left: -165px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img.logo-cont {
+  width: 50px;
+}
+
+.mainPage-header {
+  background-color: #ab2a19;
+  height: 100px;
+  color: white;
+  width: 100%;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+p.newBinTitle-text {
+  margin-left: 13px;
+  font-weight: 900;
+}
+
+span.dollar-sign {
+  position:  absolute;
+  justify-content:  center;
+  font-size: 36px;
+  align-items:  center;
+  margin-top: 6px;
+  align-content:  center;
+}
+
+input.addInfoHolder {
+  padding-left: 20px;
+}
